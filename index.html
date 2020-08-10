@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick & Morty</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+  <div class="background"></div>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        App de Rick and Morty
+      </h1>
+      <p class="subtitle">
+        My first fetch <strong>App</strong>!
+      </p>
+
+      <div class="field has-addons">
+        <div class="control is-expanded">
+          <input class="input input_search" type="text" placeholder="Find a character">
+        </div>
+        <div class="control">
+          <a class="button is-info handle_search">
+            Search
+          </a>
+        </div>
+      </div>
+
+      <div class="field has-addons">
+        <div class="control is-expanded">
+          <input class="input input_search_location" type="text" placeholder="Find a planet">
+        </div>
+        <div class="control">
+          <a class="button is-info handle_search_location">
+            Search
+          </a>
+        </div>
+      </div>
+
+    <div class="columns is-multiline grid">   
+      <img src='assets/img/loading.gif' alt='Loading' class='loading-grid'/>
+    </div>
+
+    
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            Mi modal yay
+            <!-- Any other Bulma elements you want -->
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  </section>
+  </body>
+
+  <script src="assets/js/main.js">
+</script>
+</html>
